@@ -1,0 +1,52 @@
+@import url(reset.css);
+*{
+	color: grey;
+}
+p{
+	color: blue;
+}
+h1{
+	color: orange;
+}
+a{
+	color: red;
+}
+.title{
+	color: black;
+}
+.text{
+	color: pink;
+}
+#some-id{
+	color: yellow;
+}
+[class*="li"]{
+	color: orange;
+}
+p.block__text-red{
+	color: red;
+}
+.sub-title-text.text{
+	color: black;
+}
+.block p{
+	color: black;
+}
+.block a{
+	color: gray;
+}
+.block .orange-text{
+	color: orange;
+}
+.block *{
+	color: blue;
+}
+.block > p {
+	color: orange;
+}
+.block ~ p {
+	color: red;
+}
+.block + p {
+color: black;
+}
