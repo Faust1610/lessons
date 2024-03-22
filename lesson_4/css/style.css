@@ -64,7 +64,7 @@ text-shadow: 5px 5px 5px rgba(143,200,0,1);
 }
 
 .sub-title{
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-size: 25px;
 	font-weight: 600;
@@ -101,7 +101,6 @@ text-shadow: 5px 5px 5px rgba(143,200,0,1);
 	color: blue;
 	text-decoration: underline;
 	text-decoration-color: yellow;
-	text-align: center;
 }
 /* ========================= DZ 2=============================== */
 .content__text .text__orange{
