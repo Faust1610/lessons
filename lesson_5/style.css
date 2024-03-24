@@ -1,6 +1,6 @@
 @import url(reset.css);
 @import url(fonts.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /* ======================================================== */
 body{
 	background-color: #333;
@@ -30,7 +30,7 @@ margin: 0px 0px 10px 0px;
 .margin{
 	background-color: #FF9B73;
 	font-size: 22px;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	margin: 10px 50px;
 	
 }
@@ -258,7 +258,7 @@ font-size: 0;
 
 .zara{
 	background-color: rgba(30, 40, 50, 0.1);
-	font-family:'Roboto', sans-serif;
+ font-family: 'Roboto',sans-serif;
 	font-size: 50px;
 }
 .zara__content{
