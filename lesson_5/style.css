@@ -260,7 +260,6 @@ font-size: 0;
 
 .zara{
 	background-color: rgba(30, 40, 50, 0.1);
-	font-family: "Roboto", sans-serif;
 	font-size: 50px;
 }
 .zara__content{
@@ -270,6 +269,7 @@ margin: 0 auto;
 
 }
 .zara__title{
+	font-family: "Roboto", sans-serif;
 	text-align: center;
 	text-transform: capitalize;
 	font-weight: 500;
