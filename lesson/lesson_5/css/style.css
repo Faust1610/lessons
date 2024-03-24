@@ -1,0 +1,288 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+/* ======================================================== */
+body{
+	background-color: #333;
+	color: black;
+	font-family: 'Promax Nova', sans-serif;
+}
+.lesson-header{
+}
+.lesson-title{
+	letter-spacing: 10px;
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: center;
+	background-color: #009999;
+	font-family: 'Snell Roundhand', sans-serif;
+text-decoration-color: #FF0000;
+text-transform: capitalize;
+text-shadow: 5px 2px 5px #39E639;
+padding: 10px 0px;
+margin: 0px 0px 10px 0px;
+}
+.padding{
+	background-color: #218359;
+	font-size: 20px;
+	padding: 20px;
+	font-family: 'Choco cooky', sans-serif;
+	line-height: 1.3;
+}
+.margin{
+	background-color: #FF9B73;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px 50px;
+	
+}
+.margin-minus{
+	background-color: #61D7A4;
+	color: red;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 10px;
+	text-align: center;
+	margin: -20px 20px 10px;
+	width: 500px;
+}
+.width{
+background-color: #006561;
+font-size: 18px;
+font-family:'Nefelibata Brush Canvas',sans-serif;
+text-transform: uppercase;
+max-width: 60%;
+padding: 10px;
+margin: 0px 30px 10px;
+}
+.height{
+	background-color: #25567B	;
+	font-size: 22px;
+	font-family: Arial, sans-serif;
+	text-transform: capitalize;
+	min-width: 200px;
+	padding: 10px;
+	width: 600px;
+	margin: 0px 0px 10px 50px;
+}
+.overflow{
+	background-color: #A65F00;
+	font-size: 25px;
+	font-style: italic;
+	padding: 15px;
+	margin: 0px 30px 10px;
+	max-height: 100px;
+	overflow: auto;
+}
+.overflow-hidden{
+	background-color: #00A779;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-left: 300px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 400px;
+	height: 160px;
+}
+.align{
+	background-color: #00782D;
+	font-size: 18px;
+}
+.img-block{
+	width: 200px;
+	vertical-align: middle;
+	margin: 10px 0px;
+}
+.display-inline{
+	font-size: 20px;
+	background-color: #FF7400;
+	display: inline;
+}
+.display-block{
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	background-color: #8C6DD7;
+	display: inline-block;
+}
+.margin-0-auto{
+	font-size: 25px;
+	display: block;
+	width: 60%;
+	background-color: #FF4540;
+	margin: 0 auto;
+	padding: 10px;
+}
+.container{
+max-width: 1920px;
+padding: 15px;
+margin: 0 auto;
+}
+.art{
+	font-size: 0;
+}
+.art div{
+	display: inline-block;
+	width: 50%;
+}
+.art a{
+	padding: 13px 51px;
+	font-size: 19px;
+	line-height: 1.26;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ffbc57;
+}
+.next{
+text-align: right;
+}
+
+
+/* ======================================================== */
+.body-dz{
+	background-color: #f8f8f8;
+	color: #2b2929;
+	font-family: "Proxima Nova",sans-serif;
+}
+
+.lesson__dz{
+	height: 5%;
+	background-color: #1D7373;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 600;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.krovato1{
+	max-width: 1920px;
+margin: 0 auto;
+padding: 40px 425px;
+}
+.krovato1__content{
+	margin-bottom: 40px;
+
+}
+.krovato1__title{
+margin-bottom: 40px;
+font-size: 40px;
+font-weight: 600;
+}
+.krovato1__img{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.krovato__text{
+	font-size: 16px;
+	line-height: 187.5%; /* 30/16 */
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+.krovato__text p {
+	margin-bottom: 10px;
+}
+.krovato1__sub-title{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 140%; /* 28/20 */
+}
+.krovato1__page ul {
+	line-height: 1.87;
+	margin-bottom: 40px;
+}
+.krovato1__page ul li {
+	margin-bottom: 20px;
+}
+.krovato1__page ul div {
+	display: inline-block;
+	max-width: 95%;
+	padding-left: 15px;
+}
+.krovato1__pageul img {
+	max-width: 32px;
+}
+.krovato1__footer{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 187.5%; /* 30/16 */
+}
+/* ======================================================== */
+
+.krovato2{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 40px 315px;
+}
+.krovato2__title{
+	font-size: 40px;
+	line-height: 120%; /* 48/40 */
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.items{
+margin: -5px;
+font-size: 0;
+}
+.item{
+	width: 24.500%;
+	display: inline-block;
+	margin-bottom: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: top;
+}
+.content{
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.content img{
+	margin-bottom: 20px;
+}
+.content div {
+	margin-bottom: 20px;
+	font-size: 26px;
+	line-height: 170%; /* 34/20 */
+	font-weight: 600;
+	text-align: center;
+}
+.content p {
+	font-size: 16px;
+	line-height: 187.5%; /* 30/16 */
+}
+
+/* ======================================================== */
+
+.zara{
+	background-color: rgba(30, 40, 50, 0.1);
+	font-family:'Roboto' sans-serif;
+	font-size: 50px;
+}
+.zara__content{
+max-width: 1350px;
+padding: 40px 15px;
+margin: 0 auto;
+
+}
+.zara__title{
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 60px;
+
+}
+.zara__items{
+margin: -10px;
+font-size: 0;
+overflow: auto;
+}
+.zara__item{
+display: inline-block;
+padding-left: 10px;
+padding-right: 10px;
+}
